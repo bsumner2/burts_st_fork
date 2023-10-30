@@ -4,7 +4,7 @@
 
 include config.mk
 
-SRC = st.c x.c
+SRC = st.c x.c lua_cfg.c
 OBJ = $(SRC:.c=.o)
 
 all: options st
@@ -22,7 +22,8 @@ config.h:
 	$(CC) $(STCFLAGS) -c $<
 
 st.o: config.h st.h win.h
-x.o: arg.h config.h st.h win.h
+x.o: arg.h config.h st.h win.h lua_cfg.h
+lua_cfg.o: lua_cfg.h
 
 $(OBJ): config.h config.mk
 
