@@ -98,9 +98,6 @@ static void parse_ith_color(lua_State *L, int i) {
       exit(EXIT_FAILURE);
     }
   }
-  if (i < 16) {
-    printf("Term Color no. %d: %s\n", i, dest);
-  }
 
 }
 

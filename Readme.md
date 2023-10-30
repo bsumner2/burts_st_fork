@@ -3,6 +3,9 @@
 Additional requirements:
   - Lua
   - Lua config saved to ~/.config/st/config.lua
+  - Deja Vu Sans Mono 
+    *[OPTIONAL: Edit Font field in sample_config.lua to an installed font to get st to work]*
+  - Noto Font Family [REQUIRED: Hard-coded as secondary font for displaying Emojis and other UTF chars]
 
 ## Lua Config
 Example:
