@@ -1,3 +1,28 @@
+Burt's Fork of ST
+-------------------
+Additional requirements:
+  - Lua
+
+## Lua Config Option Globals
+
+- CursorShape: Sets cursor's shape
+  - Possible Values:
+    - 2 = Block
+    - 4 = Underline
+    - 6 = Bar
+    - 7 = Snowman
+- ColorScheme: Set the 16 terminal colors and the 
+  foreground, background, cursor normal, cursor inverted colors.
+- Alpha: Floating point value between 0.0 <= 1.0
+- Font: Terminal Font
+- FontSize: Size of font.
+
+## Reset Terminal After Config Changes
+
+CTRL+SHIFT+ESC
+
+# ST's Original Readme contents
+
 st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
