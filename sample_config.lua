@@ -1,4 +1,4 @@
-CursorSape = 4
+CursorShape = 4
 ColorScheme = {
     "#211E1C",
     "#A41623",
